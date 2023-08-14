@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container_fluid_0{
+width: 100%;
+height: 60vh;
+background-image: url('../pictures/ordinateur.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container_intro{
+width: 100%;
+height: 100%;
+background-color: rgba(49, 111, 161, 0.774);
+}
+.zurly{
+margin: 0;
+padding: 0;
+padding: 1rem 0 0 5rem;
+font-size: 30px;
+color: white;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_fluid_0 h1 {
+text-transform:uppercase;
+font-size: 45px;
+color: white;
+text-align: center;
+}
+.container_fluid_0 span{
+margin-bottom: 1rem;
+font-size: 25px;
+color: white;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 50%;
+    margin: 0 5px 0 0;
+    font-size: 25px;
+    height: 50px;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+button{
+    width: 20%;
+    height: 60px;
+    font-size: 25px;
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.2rem
+    ;
+
+}
+
+.container_fluid_1{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(179, 179, 231, 0.253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container_fluid_1 h2{
+    margin-top: 2rem;
+    color: coral;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.container_0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_img{
+width: 22%;
+height: 50px;
+padding: 1rem;
+margin: 1rem;
+}
+.container_img img{
+width: 100%;
+height: 100%;
+}
+
+.container_fluid_2{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_fluid_2 h2{
+color: coral;
+}
