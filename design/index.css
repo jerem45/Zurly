@@ -4,7 +4,7 @@ body{
 }
 .container_fluid_0{
 width: 100%;
-height: 60vh;
+height: auto;
 background-image: url('../pictures/ordinateur.jpg');
 background-position: center;
 background-repeat: no-repeat;
@@ -14,6 +14,7 @@ background-size: cover;
 width: 100%;
 height: 100%;
 background-color: rgba(49, 111, 161, 0.774);
+padding: 1rem 0 3rem 0;
 }
 .zurly{
 margin: 0;
@@ -24,7 +25,7 @@ color: white;
 }
 .container{
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,8 +59,8 @@ input{
 }
 button{
     width: 20%;
-    height: 60px;
-    font-size: 25px;
+    height: 55px;
+    font-size: 18px;
     background-color: coral;
     color: white;
     border: none;
@@ -71,7 +72,7 @@ button{
 
 .container_fluid_1{
     width: 100%;
-    height: 20vh;
+    height: auto;
     background-color: rgba(179, 179, 231, 0.253);
     display: flex;
     flex-direction: column;
@@ -103,7 +104,8 @@ height: 100%;
 
 .container_fluid_2{
     width: 100%;
-    height: 20vh;
+    height: auto;
+    padding: 1rem 0 1rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;

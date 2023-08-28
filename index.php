@@ -103,7 +103,7 @@ exit();
         <?php if(isset($_GET['error'])&& isset($_GET['message'])){ ?>
         <p><?php echo htmlspecialchars($_GET['message']);?></p>
         <?php } else if(isset($_GET['short'])){?>
-            <p>http://localhost:8080/projet/bitly/index.php/?q=<?php echo htmlspecialchars($_GET['short']);?></p>
+            <p>http://localhost:8080/projet/phpUdemy/bitly/index.php/?q=<?php echo htmlspecialchars($_GET['short']);?></p>
         <?php } ?>
 
         </div>
